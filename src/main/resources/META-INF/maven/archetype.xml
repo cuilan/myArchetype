@@ -1,0 +1,13 @@
+<archetype>
+	<id>myArchetype</id>
+	<sources></sources>
+	<resources>
+		<resource>src/main/resources/spring/application-common.xml</resource>
+		<resource>src/main/resources/spring/application-mybatis.xml</resource>
+		<resource>src/main/resources/spring/spring-mvc.xml</resource>
+		<resource>src/main/resources/jdbc.properties</resource>
+		<resource>src/main/resources/log4j.properties</resource>
+		<resource>src/main/webapp/WEB-INF/web.xml</resource>
+	</resources><testSources>
+	</testSources>
+</archetype>
