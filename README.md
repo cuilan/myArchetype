@@ -1,4 +1,5 @@
 # myArchetype
+使用maven创建自定义的archetype模板，自定义预置一些通用配置文件、公用的代码等，可快速生成个性化的maven工程。
 
 ## 步骤一
 从maven官方提供的archetype模板中获取并创建自己的archetype，运行命令：
