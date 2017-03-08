@@ -1,8 +1,8 @@
 # myArchetype
-使用maven创建自定义的archetype模板，自定义预置一些通用配置文件、公用的代码等，可快速生成个性化的maven工程。
+使用 maven 创建自定义的 archetype 模板，自定义预置一些通用配置文件、公用的代码等，可快速生成个性化的 maven 工程。
 
 ## 步骤一
-从maven官方提供的archetype模板中获取并创建自己的archetype，运行命令：
+从 maven 官方提供的 archetype 模板中获取并创建自己的 archetype ，运行命令：
 ```java
 mvn  archetype:generate
 –DarchetypeGroupId=org.apache.maven.archetypes
@@ -22,7 +22,7 @@ mvn  archetype:generate
 mvn  install
 ```
 # 使用archetype
-根据myArchetype创建自己的maven工程：
+根据 myArchetype 创建自己的 maven 工程：
 ```java
 mvn  archetype:generate
 -DarchetypeGroupId=your.package.xxx
